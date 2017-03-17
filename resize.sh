@@ -5,7 +5,7 @@ a=9
 while [ $a -lt 100 ]
 do
    echo $a
-convert door.jpg -resize 140x$a\! door/door$a.gif
+convert door.jpg -resize 114x$a\! door$a.gif
    if [ $a -eq 83 ]
    then
       break
