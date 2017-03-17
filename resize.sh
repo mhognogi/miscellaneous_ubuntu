@@ -2,13 +2,9 @@
 
 a=9
 
-while [ $a -lt 100 ]
+while [ $a -lt 84 ]
 do
    echo $a
-convert door.jpg -resize 114x$a\! door$a.gif
-   if [ $a -eq 83 ]
-   then
-      break
-   fi
+   convert door.jpg -resize 114x$a\! door$a.gif
    a=`expr $a + 2`
 done
