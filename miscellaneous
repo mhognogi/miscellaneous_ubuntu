@@ -13,15 +13,13 @@ lsusb    //usb device
 lsupci    //pci device
 ip addr
 iwconfig    //wireles
-pwd    //current path
-/home/marius/Desktop/first.sh    //run sh
 sudo visudo    //user privilegion
 sudo -s    //change user to root
 su - marius     //change superuser to user
 pwd    //curent path
 x    //extract
 v    //verbose
-f    /file 
+f    //file 
 z    //gzip
 tar -xvzf community_images.tar.gz    //unzip
 find / -type f -iname "filename*"    //find file
@@ -77,7 +75,7 @@ sudo python -c "$(curl -fsSL https://raw.githubusercontent.com/platformio/platfo
 https://www.virtualbox.org/wiki/Linux_Downloads    //windows on linux
 
 http://marketplace.eclipse.org/content/eclipse-c-ide-arduino    //eclipse arduino
-
+ 
 https://www.jetbrains.com/help/phpstorm/2016.3/installing-and-launching.html    //install phpStorm
 https://superuser.com/questions/797404/edit-project-directly-from-remote-server    //ftp project phpstorm
 
