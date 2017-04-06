@@ -1,1 +1,130 @@
 convert -delay 20 -loop 1 gateGarage*.png gateGarage.gif  //convert all file from folder in animate gif
+
+lTenda_1E0E78     LED_BUILTIN
+
+ffmpeg -i PinkFloyd-TheWall.mp3 -t 0:24 -ss 1:32 -acodec copy 1_PinkFloyd-TheWall.mp3 //split sound (cut)
+openssl des3 -in file.txt -out encrypted.txt    //encrypted
+openssl des3 -d -in encrypted.txt -out normal.txt     //decrypted
+sudo service apache2 restart        //restart appache2
+
+sudo -i    //change to root
+top    //which applications are using the most CPU power
+lsusb    //usb device
+lsupci    //pci device
+ip addr
+iwconfig    //wireles
+pwd    //current path
+/home/marius/Desktop/first.sh    //run sh
+sudo visudo    //user privilegion
+sudo -s    //change user to root
+su - marius     //change superuser to user
+pwd    //curent path
+x    //extract
+v    //verbose
+f    /file 
+z    //gzip
+tar -xvzf community_images.tar.gz    //unzip
+find / -type f -iname "filename*"    //find file
+sudo chown -R marius: esp8266    //change owner recursiv
+
+ffmpeg -f concat -i inputs.txt -vcodec copy -acodec copy Mux1.mp4 //concatenate merge
+file 1_.mp4    //inputs.txt
+file 2_.mp4    //inputs.txt
+
+https://answers.launchpad.net/ubuntu/+source/foo2zjs/+question/269457     //hp p1005 printer
+http://www.wikigain.com/install-android-7-0-nougat-on-virtualbox/ //virtualbox android
+
+sudo add-apt-repository ppa:n-muench/programs-ppa  //install filezilla
+sudo apt-get update  //install filezilla
+sudo apt-get install filezilla  //install filezilla
+
+https://www.ubuntu.com/download/desktop/create-a-usb-stick-on-ubuntu    //bootable usb ubuntu
+
+http://askubuntu.com/questions/769079/cant-format-ubuntu-installation-stick   //issue usb flash, partition, etc 
+
+download smartgit    //instrall smartgit
+sudo tar xf smartgit-linux-17_0_2.tar.gz -C /opt/    //instrall smartgit
+sh /opt/smartgit/bin/smartgit.sh    //open smartgit
+
+sudo add-apt-repository ppa:moonlight-team/pinta    //install pinta image editor
+sudo apt-get update    //install pinta image editor
+sudo apt-get install pinta    //install pinta image editor
+
+sudo apt-get install imagemagick    //resize image terminal
+convert door.jpg -resize 140x20\! myfigure.jpg    //resize image terminal
+
+//esp32 eclipse
+http://iot-bits.com/esp32/getting-started-with-esp32-esp-idf-part-2/
+https://www.youtube.com/watch?v=bYh2w0HzS7s&index=11&list=PLB-czhEQLJbWMOl7Ew4QW1LpoUUE7QMOo#t=10.339932
+
+https://www.youtube.com/watch?v=MDocFcK73_Q    //arduino+eclipse+win7
+
+gsettings reset-recursively org.cinnamon     //mint restore menu
+
+https://www.arduino.cc/en/Main/Software  //install arduino
+cd ~/Downloads    //install arduino
+tar -xvf arduino-1.*.tar.xz    //install arduino
+sudo mv arduino-1.*.1 /opt    //install arduino
+cd /opt/arduino-1.*.1/    //install arduino
+chmod +x install.sh    //install arduino
+./install.sh    //install arduino
+File/Prefernces/Additional Board Manager URLs: http://arduino.esp8266.com/stable/package_esp8266com_index.json    //wemos esp8266
+https://www.wemos.cc/tutorial/get-started-arduino.html   //arduino wemos esp8266
+sudo chmod a+rw /dev/ttyUSB0    //arduino wemos esp8266
+add to .profile: export PATH=$PATH:$HOME/.local/bin    //platformio
+sudo python -c "$(curl -fsSL https://raw.githubusercontent.com/platformio/platformio/master/scripts/get-platformio.py)" //platformio
+
+https://www.virtualbox.org/wiki/Linux_Downloads    //windows on linux
+
+http://marketplace.eclipse.org/content/eclipse-c-ide-arduino    //eclipse arduino
+
+https://www.jetbrains.com/help/phpstorm/2016.3/installing-and-launching.html    //install phpStorm
+https://superuser.com/questions/797404/edit-project-directly-from-remote-server    //ftp project phpstorm
+
+http://stackoverflow.com/questions/17480044/how-to-install-the-current-version-of-go-in-ubuntu-precise#The version of GO is 1.7     //install google go 
+http://askubuntu.com/questions/594656/how-to-install-the-latest-versions-of-nodejs-and-npm-for-ubuntu-14-04-lts //install nodejs
+http://tecadmin.net/install-oracle-java-8-jdk-8-ubuntu-via-ppa/#    //install java8
+sudo apt-get purge oracle-java8-installer    //uninstall java8
+https://eclipse.org/downloads/    //install eclipse
+https://www.howtoforge.com/tutorial/install-apache-with-php-and-mysql-on-ubuntu-16-04-lamp/    //install lamp
+https://community.linuxmint.com/tutorial/view/486    //install lamp mint
+http://askubuntu.com/questions/25446/how-to-install-codeigniter    //install codeIgniter
+
+http://www.dieuwe.com/blog/xdebug-ubuntu-1604-php7 //install xdebug
+//atom  
+//add in sudo gedit /etc/php/7.0/apache2/php.ini
+xdebug.remote_enable=1
+xdebug.remote_host=127.0.0.1
+xdebug.remote_connect_back=1    # Not safe for production servers
+xdebug.remote_port=9000
+xdebug.remote_handler=dbgp
+xdebug.remote_mode=req
+xdebug.remote_autostart=true
+//restart apache2
+sudo service apache2 restart
+
+
+
+https://wiki.eclipse.org/Debugging_using_XDebug    //xdebug ?
+sudo apt-get install chromium-browser //install
+sudo apt-get purge chromium-browser //remove
+
+https://www.youtube.com/watch?v=MDocFcK73_Q    //esp8266 eclipse win7
+
+http://askubuntu.com/questions/634082/how-to-install-android-studio-on-ubuntu    //install android studio
+sudo apt-get install lib32z1 lib32ncurses5 lib32stdc++6    //install android studio
+cd /opt/android-studio/bin & ./studio.sh  //run android studio
+
+chromium-browser //open chromium
+firefox & //open firefox
+google-chrome //open chrome
+import 1.png  //screenshot
+sudo nautilus // desktop manager
+software-center //Software center
+unity-control-center // System Setting
+
++GUI
+/usr/share/themes/Ambiance/gtk-3.0/gtk-main.css //change color popup eclipse
+//remove lounc barr
+Install the CCSM http://apt.ubuntu.com/p/compizconfig-settings-manager
+Alt + F2/about:config/Enter/change the "hide launcher" setting to "autohide".
