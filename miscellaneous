@@ -29,6 +29,8 @@ ffmpeg -f concat -i inputs.txt -vcodec copy -acodec copy Mux1.mp4 //concatenate 
 file 1_.mp4    //inputs.txt
 file 2_.mp4    //inputs.txt
 
+https://tecadmin.net/install-laravel-framework-on-ubuntu //install laravel
+
 https://answers.launchpad.net/ubuntu/+source/foo2zjs/+question/269457     //hp p1005 printer
 
 https://www.ubuntu.com/download/desktop/create-a-usb-stick-on-ubuntu    //bootable usb ubuntu
