@@ -1,7 +1,8 @@
 convert -delay 20 -loop 1 gateGarage*.png gateGarage.gif  //convert all file from folder in animate gif
 
-sudo add-apt-repository ppa:audio-recorder/ppa             //capture audio output
-sudo apt-get update && sudo apt-get install audio-recorder //capture audio output
+sudo add-apt-repository ppa:audio-recorder/ppa  //capture audio output
+sudo apt-get update                             //capture audio output
+sudo apt-get install audio-recorder             //capture audio output
 
 ffmpeg -i PinkFloyd-TheWall.mp3 -t 0:24 -ss 1:32 -acodec copy 1_PinkFloyd-TheWall.mp3 //split sound (cut)
 openssl des3 -in file.txt -out encrypted.txt    //encrypted
