@@ -34,9 +34,6 @@ file 2_.mp4    //inputs.txt
 
 https://www.howtoforge.com/tutorial/install-laravel-on-ubuntu-for-apache/ //install laravel
 
-sudo apt-get install python-qt4 hplip-gui //hp p1005 printer
-hp-setup    //hp p1005 printer
-
 https://www.ubuntu.com/download/desktop/create-a-usb-stick-on-ubuntu    //bootable usb ubuntu
 
 http://askubuntu.com/questions/769079/cant-format-ubuntu-installation-stick   //issue usb flash, partition, etc 
