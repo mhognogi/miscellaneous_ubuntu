@@ -27,6 +27,7 @@ tar -xvzf community_images.tar.gz    //unzip
 find / -type f -iname "filename*"    //find file
 sudo chown -R marius: esp8266    //change owner recursiv
 sudo chmod -R 777 /var/www   //change privilegion recursiv
+mysql -uroot -p database_name < dumpfilename.sql //copy db
 
 ffmpeg -f concat -i inputs.txt -vcodec copy -acodec copy Mux1.mp4 //concatenate merge
 file 1_.mp4    //inputs.txt
