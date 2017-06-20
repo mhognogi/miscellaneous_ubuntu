@@ -28,6 +28,11 @@ find / -type f -iname "filename*"    //find file
 sudo chown -R marius: esp8266    //change owner recursiv
 sudo chmod -R 777 /var/www   //change privilegion recursiv
 
+//gzip
+tar -czvf name-archive.tar.gz /path/directory //zip
+tar -czvf name-archive.tar.gz /path/directory --exclude=dir/ignore_this_dir //zip exclude dir
+tar -xvzf community_images.tar.gz    //unzip
+
 //DB
 mysql -uroot -p database_name < dumpfilename.sql //copy db
 DROP DATABASE dbName;
