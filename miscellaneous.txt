@@ -1,3 +1,6 @@
+//create silence 10 seconds
+ffmpeg -f lavfi -i anullsrc=r=44100:cl=mono -t 10 -q:a 9 -acodec libmp3lame silence_10.mp3
+
 https://www.tqhosting.com/kb/356/How-to-install-LAMP-Apache-24-MySQL-56-and-PHP-56-stack-on-Debian-8-Jessie.html
 
 convert -delay 20 -loop 1 gateGarage*.png gateGarage.gif  //convert all file from folder in animate gif
